@@ -48,9 +48,9 @@ export default function Header() {
                     </nav>
                   </div>
                   <div className="mobile-m-bar d-block d-lg-none ml-30">
-                    <a className="mobile-menubar theme-color primary-hover" href="javascript:void(0);" onClick={toggleMenu}>
+                    <Link to ='#' className="mobile-menubar text-white" href="javascript:void(0);" onClick={toggleMenu}>
                       <i className="far fa-bars"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

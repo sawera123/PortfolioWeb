@@ -55,11 +55,11 @@ export default function Home() {
     <>
 
     <main className="over-hidden">
-      <div id="home" className="slider-area slider-bg-color over-hidden">
+      <div id="home" className="slider-area slider-bg-color  over-hidden">
         <div className="single-slider slider-height over-hidden position-relative xxl-device-width bg-cover no-repeat"
              style={{ backgroundImage: 'url(images/slider/slider-bg.jpg)' }}>
 
-          <div id="scene" className="parallax position-absolute w-100 h-100 z-index1">
+          <div id="scene" className="parallax sm:display-none position-absolute w-100 h-100 z-index1">
             <img data-depth="0.20" className="hero-shape hero-shape1" src="images/shape/shape1.png" alt="Shape 1"/>
             <img data-depth="0.15" className="hero-shape hero-shape2" src="images/shape/shape2.png" alt="Shape 2"/>
             <img data-depth="0.30" className="hero-shape hero-shape3" src="images/shape/shape3.png" alt="Shape 3"/>
@@ -87,7 +87,7 @@ export default function Home() {
                   <a href="#hero-btn"
                      className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3">Say Hello</a>
                   <a href="#hero-btn"
-                     className="btn position-relative over-hidden bg-transparent main-border text-uppercase transition5">About Me</a>
+                     className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5">About Me</a>
                 </div>
               </div>
             </div>
