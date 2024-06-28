@@ -1,0 +1,102 @@
+
+
+
+
+
+.hero-shape {
+  position: absolute;
+  transition: transform 0.3s ease-out; /* Smooth transition for movement */
+}
+
+
+
+/* Hide the mobile menu initially */
+.side-mobile-menu {
+  display: none;
+}
+
+/* Show the mobile menu when the 'open' class is added */
+.side-mobile-menu.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #494949; 
+  z-index: 999;
+  padding: 20px;
+}
+
+.body-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+/* Show the body overlay when the menu is open */
+.side-mobile-menu.open + .body-overlay {
+  display: block;
+}
+
+.close-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.mobile-menu a{
+  color: white !important;
+  text-decoration: none !important;
+  margin: 20px;
+  
+}
+.mobile-menu ul li {
+  margin: 20px;
+}
+/* Hide the main menu on small screens */
+@media (max-width: 991px) {
+  .main-menu {
+    display: none;
+  }
+
+  .mobile-m-bar {
+    display: block;
+  }
+  .mobile-menu a{
+    color: white !important;
+    text-decoration: none !important;
+    margin: 20px;
+  }
+  .mobile-menu ul li {
+    margin: 20px;
+  }
+}
+
+/* Hide the mobile menu and overlay on large screens */
+@media (min-width: 992px) {
+  .mobile-m-bar {
+    display: none;
+  }
+
+  .side-mobile-menu {
+    display: none;
+  }
+
+  .body-overlay {
+    display: none;
+  }
+  .mobile-menu a{
+    color: white !important;
+    text-decoration: none !important;
+    margin: 20px;
+  }
+  .mobile-menu ul li {
+    margin: 20px;
+  }
+}
