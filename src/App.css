@@ -110,7 +110,7 @@
 }
 
 /* hide home objects */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 #scene{
   display: none;
 }
