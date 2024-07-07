@@ -109,6 +109,9 @@
   color: white !important;
 }
 
+.hero-shape4{
+  margin-left: 20px !important;
+}
 /* hide home objects */
 @media (max-width: 500px) {
 #scene{
@@ -119,7 +122,7 @@
 }
 }
 
-@media (min-width: 180px) and (max-width: 400px){
+@media (min-width: 180px) and (max-width: 998px){
   .mobile-menubar {
     display: block;
   }

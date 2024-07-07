@@ -15,7 +15,7 @@ export default function Home() {
     // Initialize typer.js for the typing effect
     const typerElement = document.getElementById('main');
     new window.Typer(typerElement, {
-      strings: ['Student'],
+      strings: ['Developer'],
       delay: 1000,
       colors: ['#25262f'],
       endless: true,
@@ -63,7 +63,7 @@ export default function Home() {
             <img data-depth="0.20" className="hero-shape hero-shape1" src="images/shape/shape1.png" alt="Shape 1"/>
             <img data-depth="0.15" className="hero-shape hero-shape2" src="images/shape/shape2.png" alt="Shape 2"/>
             <img data-depth="0.30" className="hero-shape hero-shape3" src="images/shape/shape3.png" alt="Shape 3"/>
-            <img data-depth="0.10" className="hero-shape hero-shape4" src="images/shape/shape4.png" alt="Shape 4"/>
+            <img data-depth="0.10" className="hero-shape hero-shape4 " src="images/shape/shape4.png" alt="Shape 4"/>
           </div>
 
           <div className="container slider-height d-flex align-items-center justify-content-center">

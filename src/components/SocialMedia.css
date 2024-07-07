@@ -1,0 +1,355 @@
+
+.social-media-pg{
+    padding-top: 150px;
+    padding-bottom: 0px;
+    background-color: black !important;
+    color: white !important;
+    height: auto;
+}
+
+
+.social-detail-box .bio-details{
+    display:flex;
+    flex-direction: column;
+   
+}
+.bio-details-3{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.bio-details-3 .logo-img img{
+    padding-bottom: 0;
+    height: 50px;
+    
+    z-index: 2 !important;
+}
+.profile-info-box {
+    margin-left: 20px;
+    z-index: 2;
+    margin-top: 20px;
+    color: white !important;
+}
+.bio-details p{
+    z-index: 2;
+    color: white !important;
+}
+
+
+.social-box::before{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSywW7zet1lSnmo79fEg0aHxHedjx0bo5mJ3Q&s");
+      color: white !important;
+}
+.social-box2::before{
+   
+    background-image:url("https://e1.pxfuel.com/desktop-wallpaper/300/819/desktop-wallpaper-neon-by-backgrounds-cool-neon-phone-thumbnail.jpg");
+color: white !important;
+}
+
+.social-box3::before{
+     background-image:url("https://is.zobj.net/image-server/v1/images?r=P9P6tl8EC_mRcipDJ2ShZI0AC0F-DaKv-DkkliOFL5IfuOwHhj39ZWimf5BP6K00jnOATsdRUZ_VB5-hjuKY8uX2lpgf5wxeIT8u-KqkoswaMxg6u0cIyIMgawHysoGDc0j7Xf73g4i0uGrja6Z5ebN60cCAJsyjDL5ELgJjmESToc-YDqYjPA_6UYEMiKspGqDQfZEddb95IGZhF28mXsnd79_-3bQJDbNHxPJ3girgdu0sjWL0OVh3NxI");
+        
+    }
+.social-box4::before{
+    /* border: 2px solid rgba(255, 255, 255, 0.292);
+    border-radius: 10%;
+    content:"";
+    position:absolute; */
+    background-image: url("https://img.freepik.com/free-vector/neon-lights-background-concept_52683-35551.jpg?size=626&ext=jpg&ga=GA1.1.363365880.1720244792&semt=ais_user");
+    /* background-size: cover;
+    background-repeat:no-repeat;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:1;
+    overflow: hidden; */
+} 
+.social-box::before,
+.social-box2::before,
+.social-box3::before,
+.social-box4::before {
+    margin: 10px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    opacity: 0.3;
+    border: 2px solid rgba(255, 255, 255, 0.292);
+    border-radius: 10%;
+    padding: 0px;
+    height: 100% !important;
+   
+    
+}
+
+.bio-text{
+    color: white;
+    background-color: transparent;
+}
+.logo-img img{
+    /* background-color:rgba(42, 42, 42, 0.759); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius:50%;
+    padding-top:0px !important; 
+    width: 80px;
+    height: 65px; 
+    /* background: rgba(49, 49, 49, 0.916); */
+    background-color: black ;
+    padding: 0px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    color: white;
+    /* z-index: 2 !important; */
+}
+.snapchat {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.img-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.img-container img {
+    top: 0;
+    left: 0;
+    bottom: 0;
+   width: 100%;
+   height: 100%;
+    height: auto; 
+    display: block;
+    object-fit: cover; 
+    border:none;
+    border-radius:20%;
+ 
+}
+.snapchat img {
+    width: 100%;
+    height: 90px;
+    display: block;
+}
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    border:none;
+    border-radius:20%;
+    border: none;
+    /* overflow: hidden; */
+    color: white !important;
+    z-index: 1;
+}
+
+.snapchat span {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: 16px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white; /* Ensure text is fully white */
+    z-index: 2;
+    padding: 10px;
+    color: white !important;
+}
+
+.sm-icons a{
+ color: white ;
+ text-decoration:none;
+ display: flex;
+ gap: 20px;
+ padding: 10px;
+}
+.iframe{
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin: 20px;
+    margin-top: 0 !important;
+    z-index: 2;
+}
+.iframe iframe{
+    margin-top: 0;
+    padding-top: 0;
+    border:none;
+    border-radius:4%;
+    opacity:1;
+   width: 100%;
+}
+.iframe3 iframe{
+    border:none;
+    border-radius:4%;
+    margin: 20px;
+    width: 100%;
+    margin-bottom:20px;
+}
+/* bio-description */
+.bio-description {
+    background: #8585859f;
+    z-index: 2;
+    /* padding:10px; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center !important;
+    border:none;
+    border-radius:4%;
+    padding:0px 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.bio-description p{
+    /* padding:0px !important; */
+    
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+
+/* subscribe email */
+.bio-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    z-index: 2;
+   color: white;
+}
+
+.bio-inputs input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    overflow: hidden;
+     border: none;
+     border-radius:none;
+     background-color: rgba(178, 178, 178, 0.626);
+     border-right: 1px solid white;
+     color: white;
+}
+
+.bio-inputs button {
+    padding: 10px 20px;
+   border: none;
+   border-radius:none;
+    outline:none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bio-inputs input[type="email"]::placeholder {
+    color: white;
+    outline: none !important;
+    border: none !important;
+}
+
+.bio-inputs input[type="email"]:focus{
+    color: white;
+    overflow: hidden;
+    outline: none !important;
+    border: none !important;
+}
+.scllink-box{
+    border: 1px solid white;
+    padding:10px;
+    background: #000;
+}
+.scllink-box span{
+    display: flex;
+    align-items: center !important;
+   padding-top: 6px;
+    float: left;
+  
+}
+.scllink-box .youtube-bio-link{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.amazon-card img {
+      width: 150px;
+      height: auto; 
+      padding: 20px;
+}
+.amazon-card {
+    display: flex;
+    /* float: left; */
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+     color: black !important;
+     margin-top: 25px;
+     border: none;
+     border-radius:6%;
+     padding-top: 0 !important;
+     background-color: white;
+     margin-bottom: 10px;
+}
+.amazon-text p{
+    margin-top: 0px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: black !important;
+      z-index: 2 !important;
+}
+.amazon-text span{
+    /* margin-top: -20px; */
+    font-size: 12px;
+}
+
+
+
+
+/* responsiveness */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .snapchat {
+      
+        color: white;
+        padding: 4px;
+        padding-bottom: 30px;
+    }
+    .amazon-card {
+      display: flex;
+      display: block;
+      padding-left: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .bio-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        border: 1px solid #ccc;
+        z-index: 2;
+       color: white;
+    }
+}
+
+@media (min-width:336px) and (max-width:579px) {
+    .social-box,
+    .social-box2,
+    .social-box3,
+    .social-box4{
+        padding: 100px;
+    }
+}
