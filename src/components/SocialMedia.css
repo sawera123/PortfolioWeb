@@ -5,7 +5,9 @@
     background-color: black !important;
     color: white !important;
     height: auto;
+    margin-bottom: 0 !important;
 }
+
 
 
 .social-detail-box .bio-details{
@@ -347,8 +349,7 @@ color: white !important;
         margin-left: 40px;
         padding: 0px;
     }
-<<<<<<< HEAD
-    
+
     .social-box::before,.social-box2::before,.social-box3::before,.socialbox4{
         width: 80% !important;
         margin-left: 40px;
@@ -359,12 +360,12 @@ color: white !important;
     }
     .social-box4{
         width: 80% !important;
-        margin-left: 60px;
+        margin-left: 40px;
         padding-bottom: 20px;
     }
      .social-box4::before{
         width: 80% !important;
-        margin-left: 60px;
+        margin-left: 40px;
         padding-bottom: 20px;
     }
 
@@ -387,6 +388,7 @@ color: white !important;
     }
     .bio-inputs input{
         width: 100%;
+        
          }
          .social-box2{
             padding-bottom: 20px;
@@ -405,12 +407,12 @@ color: white !important;
 @media (min-width:431px) and (max-width:769px) {
     .social-box,.social-box2,.social-box3,.social-box4{
         width: 70% !important;
-        margin-left: 60px;
+        margin-left: 70px;
         padding: 0px;
     }
     .social-box::before,.social-box2::before,.social-box3::before,.socialbox4{
         width: 70% !important;
-        margin-left: 60px;
+        margin-left: 70px;
         padding: 0px;
     }
     .social-box2{
@@ -418,12 +420,12 @@ color: white !important;
     }
     .social-box4{
         width: 70% !important;
-        margin-left: 60px;
+        margin-left: 70px;
         padding-bottom: 20px;
     }
      .social-box4::before{
         width: 70% !important;
-        margin-left: 60px;
+        margin-left: 70px;
         padding-bottom: 20px;
     }
     .social-box3 .logo-img img{

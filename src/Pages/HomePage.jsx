@@ -11,7 +11,6 @@ export default function HomePage() {
     <>
    
     <Preloader/>
-    {/* <NavBar/> */}
     <Header/>
     <Home/>
     <Intro/>
