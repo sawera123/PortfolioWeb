@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div id="header-sticky" className="transparent-header header-area">
+        <div id="header-sticky" className="transparent-header header-area ">
           <div className="header">
             <div className="container">
               <div className="row align-items-center">

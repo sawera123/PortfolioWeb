@@ -11,7 +11,7 @@ export default function SocialMedia() {
        
           <div className="container">
             <div className="row ">
-              <div className="col-lg-3 col-md-6 col-sm-12 social-boxes mb-4">
+              <div className="col-lg-3 col-md-6 col-sm-12  mb-4">
                <div className=" social-box ">
                   <div className="social-detail-box">
                   <div className='bio-details d-flex align-items-center justify-content-center'>
@@ -20,7 +20,7 @@ export default function SocialMedia() {
                       <img src="images/logo/image.gif"  alt="THAMES" />
                     </Link>
                     </div>
-                 <p>@jf.ok</p>
+                    <p className='pt-2'>@jf.ok</p>
                 
                  <div className=" slider-social-link d-flex align-items-center">
                       <div className="sm-icons mt-10 mb-0 rotate-hover">
@@ -96,7 +96,7 @@ export default function SocialMedia() {
                       <img src="images/logo/image.gif"  alt="THAMES" />
                     </Link>
                     </div>
-                 <p>@jf.ok</p>
+                    <p className='pt-2'>@jf.ok</p>
                 
                  <div className=" slider-social-link d-flex align-items-center">
                       <div className="sm-icons mt-10 mb-0 rotate-hover">
@@ -214,7 +214,7 @@ export default function SocialMedia() {
                       <img src="images/logo/image.gif"  alt="THAMES" />
                     </Link>
                     </div>
-                 <p>@jf.ok</p>
+                    <p className='pt-2'>@jf.ok</p>
                  
                     
                  <div className=" mt-20 slider-social-link d-flex align-items-center">

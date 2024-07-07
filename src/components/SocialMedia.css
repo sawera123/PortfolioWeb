@@ -1,7 +1,7 @@
 
 .social-media-pg{
     padding-top: 150px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     background-color: black !important;
     color: white !important;
     height: auto;
@@ -50,20 +50,14 @@ color: white !important;
      background-image:url("https://is.zobj.net/image-server/v1/images?r=P9P6tl8EC_mRcipDJ2ShZI0AC0F-DaKv-DkkliOFL5IfuOwHhj39ZWimf5BP6K00jnOATsdRUZ_VB5-hjuKY8uX2lpgf5wxeIT8u-KqkoswaMxg6u0cIyIMgawHysoGDc0j7Xf73g4i0uGrja6Z5ebN60cCAJsyjDL5ELgJjmESToc-YDqYjPA_6UYEMiKspGqDQfZEddb95IGZhF28mXsnd79_-3bQJDbNHxPJ3girgdu0sjWL0OVh3NxI");
         
     }
+    .social-box4{
+        padding-bottom: 20px;
+    }
+    
 .social-box4::before{
-    /* border: 2px solid rgba(255, 255, 255, 0.292);
-    border-radius: 10%;
-    content:"";
-    position:absolute; */
+  
     background-image: url("https://img.freepik.com/free-vector/neon-lights-background-concept_52683-35551.jpg?size=626&ext=jpg&ga=GA1.1.363365880.1720244792&semt=ais_user");
-    /* background-size: cover;
-    background-repeat:no-repeat;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    opacity:1;
-    overflow: hidden; */
+   
 } 
 .social-box::before,
 .social-box2::before,
@@ -78,7 +72,7 @@ color: white !important;
     left: 0;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    opacity: 0.3;
+    opacity: 0.8;
     border: 2px solid rgba(255, 255, 255, 0.292);
     border-radius: 10%;
     padding: 0px;
@@ -182,7 +176,7 @@ color: white !important;
 .iframe{
     padding-top: 0px;
     margin-bottom: 10px;
-    margin: 20px;
+    margin: 16px;
     margin-top: 0 !important;
     z-index: 2;
 }
@@ -316,13 +310,15 @@ color: white !important;
     font-size: 12px;
 }
 
+.transition5{
+    z-index: 2 !important;
+}
 
 
 
 /* responsiveness */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .snapchat {
-      
         color: white;
         padding: 4px;
         padding-bottom: 30px;
@@ -345,11 +341,94 @@ color: white !important;
     }
 }
 
-@media (min-width:336px) and (max-width:579px) {
-    .social-box,
-    .social-box2,
-    .social-box3,
-    .social-box4{
-        padding: 100px;
+@media (min-width:336px) and (max-width:430px) {
+    .social-box,.social-box2,.social-box3,.social-box4{
+        width: 80% !important;
+        margin-left: 40px;
+        padding: 0px;
     }
+    
+    .social-box::before,.social-box2::before,.social-box3::before,.socialbox4{
+        width: 80% !important;
+        margin-left: 40px;
+        padding: 0px;
+    }
+    .social-box2{
+        padding-bottom: 20px;
+    }
+    .social-box4{
+        width: 80% !important;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+     .social-box4::before{
+        width: 80% !important;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .amazon-card {
+        display: flex;
+        display: block;
+        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+      .bio-inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: block;
+        border: 1px solid #ccc;
+        z-index: 2;
+       color: white;
+    }
+    .bio-inputs input{
+        width: 100%;
+         }
+         .social-box2{
+            padding-bottom: 20px;
+        }
+        .social-box4{
+            padding-bottom: 20px;
+        }
+        .snapchat {
+            color: white;
+            padding: 20px;
+            /* padding-top: 0; */
+            padding-bottom: 0px;
+        }
+
+}
+@media (min-width:431px) and (max-width:769px) {
+    .social-box,.social-box2,.social-box3,.social-box4{
+        width: 70% !important;
+        margin-left: 60px;
+        padding: 0px;
+    }
+    .social-box::before,.social-box2::before,.social-box3::before,.socialbox4{
+        width: 70% !important;
+        margin-left: 60px;
+        padding: 0px;
+    }
+    .social-box2{
+        padding-bottom: 20px;
+    }
+    .social-box4{
+        width: 70% !important;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+     .social-box4::before{
+        width: 70% !important;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+    .social-box3 .logo-img img{
+        color: white;
+        z-index: 2;
+    }
+    
+    
 }
