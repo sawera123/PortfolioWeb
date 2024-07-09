@@ -42,7 +42,6 @@ export default function SocialMedia() {
                   <div className='col-lg-6 col-md-6 col-sm-6 col-6 snapchat'>
                 <div className="img-container">
                 <img src={snapimage} alt="snap"  className='img-fluid' /> 
-                
                 <div className='img-overlay'>
                     <span>Snapchat</span>
                     </div>

@@ -14,12 +14,16 @@ const Preloader = () => {
 
   return (
     <>
+
+  
       {isLoading && (
-        <div style={styles.preloader}>
-          <div style={styles.loading}>
-            <div style={styles.loadingCenter}>
-              <div style={styles.loadingCenterAbsolute}>
-                <img src="images/logo/image.gif" alt="THAMES" style={styles.logo} />
+        <div className="preloader">
+          <div className="loading">
+            <div className="loadingCenter">
+              <div className="loadingCenterAbsolute">
+              <div className="preloaderRotate">
+                <img src="images/logo/image.gif" alt="THAMES" className="logo rotate" />
+              </div>
               </div>
             </div>
           </div>
@@ -27,46 +31,6 @@ const Preloader = () => {
       )}
     </>
   );
-};
-
-// Styles for the preloader
-const styles = {
-  preloader: {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'black',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    zIndex: 9999,
-  },
-  loading: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    height: '100%',
-  },
-  loadingCenter: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    height: '100%',
-  },
-  loadingCenterAbsolute: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'column',
-  },
-  logo: {
-    maxWidth: '100%', // Ensures the logo is responsive
-    height: 'auto', // Maintains the aspect ratio
-  },
 };
 
 export default Preloader;
