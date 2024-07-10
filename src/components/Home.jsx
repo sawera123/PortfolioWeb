@@ -54,10 +54,10 @@ export default function Home() {
 
     <>
 
-    <main className="over-hidden">
+    <main className="over-hidden aboutbgdark">
       <div id="home" className="slider-area slider-bg-color  over-hidden">
         <div className="single-slider slider-height over-hidden position-relative xxl-device-width bg-cover no-repeat"
-             style={{ backgroundImage: 'url(images/slider/slider-bg.jpg)' }}>
+             >
 
           <div id="scene" className="parallax sm:display-none position-absolute w-100 h-100 z-index1">
             <img data-depth="0.20" className="hero-shape hero-shape1" src="images/shape/shape1.png" alt="Shape 1"/>
