@@ -8,12 +8,12 @@ export default function SocialMedia() {
     <>
    
       <div className='social-media-pg mb-0' style={{"background-color": "black"}}>
-          <div className="container">
-            <div className="row ">
-              <div className="col-lg-3 col-md-6 col-sm-12  mb-4">
+          <div className="container" style={{alignItems:"center", justifyContent:"center"}}>
+            <div className="row justify-content-center">
+              <div className="col-lg-4 col-md-8 col-sm-12 d-flex align-items-center justify-content items-center  mb-4">
                <div className=" social-box ">
                   <div className="social-detail-box">
-                  <div className='bio-details d-flex align-items-center justify-content-center'>
+                  <div className='bio-details d-flex align-items-center justify-content items-center'>
                   <div className="pt-25 logo-img  transition5">
                     <Link to ='/' className="  " >
                       <img src="images/logo/image.gif"  alt="THAMES" />
@@ -37,7 +37,7 @@ export default function SocialMedia() {
             </div>
             
             
-                <div className='container snap-boxes'>
+                <div className='container snap-boxes '>
                   <div className="row">
                   <div className='col-lg-6 col-md-6 col-sm-6 col-6 snapchat'>
                 <div className="img-container">
@@ -85,7 +85,9 @@ export default function SocialMedia() {
                      </div>
               </div>
 
-              <div className="col-lg-3 col-md-6 col-sm-12 social-boxes mb-4">
+             
+
+              {/* <div className="col-lg-3 col-md-6 col-sm-12 social-boxes mb-4">
               <div className=" social-box2 ">
                   <div className="social-detail-box ">
                   <div className='bio-details d-flex align-items-center justify-content-center'>
@@ -257,7 +259,7 @@ export default function SocialMedia() {
                 </div>
  </div>
 
-              </div>
+              </div> */}
               
             </div>
           </div>

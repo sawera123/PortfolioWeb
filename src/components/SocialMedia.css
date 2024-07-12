@@ -13,12 +13,21 @@
 .social-detail-box .bio-details{
     display:flex;
     flex-direction: column;
+    /* margin-left: 24px; */
+    margin: 0 !important;
+    padding: 0 !important;
+    display:flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
    
 }
 .bio-details-3{
     display: flex;
     align-items: center;
     padding: 0px;
+    margin: 0px;
 }
 .bio-details-3 .logo-img img{
     padding-bottom: 0;
@@ -27,7 +36,7 @@
     z-index: 2 !important;
 }
 .profile-info-box {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     z-index: 2;
     margin-top: 20px;
     color: white !important;
@@ -41,6 +50,7 @@
 .social-box::before{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSywW7zet1lSnmo79fEg0aHxHedjx0bo5mJ3Q&s");
       color: white !important;
+      width: 100% !important;
 }
 .social-box2::before{
    
@@ -79,10 +89,13 @@ color: white !important;
     border-radius: 10%;
     padding: 0px;
     height: 100% !important;
-   
     
 }
-
+.social-box{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
 .bio-text{
     color: white;
     background-color: transparent;
@@ -108,6 +121,7 @@ color: white !important;
 .snapchat {
     position: relative;
     text-align: center;
+    align-items: center;
     color: white;
     padding: 20px;
     padding-top: 0px;
@@ -136,7 +150,7 @@ color: white !important;
 }
 .snapchat img {
     width: 100%;
-    height: 90px;
+    height: 120px;
     display: block;
 }
 
@@ -201,7 +215,6 @@ color: white !important;
 .bio-description {
     background: #8585859f;
     z-index: 2;
-    /* padding:10px; */
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -317,6 +330,17 @@ color: white !important;
 }
 
 
+.snap-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.social-box{
+    width: 100%;
+    margin-left: 20px;
+    
+}
 
 /* responsiveness */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -341,13 +365,32 @@ color: white !important;
         z-index: 2;
        color: white;
     }
+    .social-box{
+        width: 100%;
+        margin-left: 30px;
+        
+    }
+    .social-detail-box .bio-details{
+        display:flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+       margin: 0px;
+       padding: 0px;
+    }
+    .snapchat {
+        color: white;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 0px;
+    }
 }
 
 @media (min-width:336px) and (max-width:430px) {
     .social-box,.social-box2,.social-box3,.social-box4{
         width: 80% !important;
         margin-left: 40px;
-        padding: 0px;
+        padding: 10px;
     }
 
     .social-box::before,.social-box2::before,.social-box3::before,.socialbox4{
@@ -355,7 +398,7 @@ color: white !important;
         margin-left: 40px;
         padding: 0px;
     }
-    .social-box2{
+    /* .social-box2{
         padding-bottom: 20px;
     }
     .social-box4{
@@ -367,7 +410,7 @@ color: white !important;
         width: 80% !important;
         margin-left: 40px;
         padding-bottom: 20px;
-    }
+    } */
 
     .amazon-card {
         display: flex;
@@ -390,16 +433,16 @@ color: white !important;
         width: 100%;
         
          }
-         .social-box2{
+         /* .social-box2{
             padding-bottom: 20px;
         }
         .social-box4{
             padding-bottom: 20px;
-        }
+        } */
         .snapchat {
             color: white;
-            padding: 20px;
-            /* padding-top: 0; */
+            padding: 6px;
+            padding-top: 6px;
             padding-bottom: 0px;
         }
 
