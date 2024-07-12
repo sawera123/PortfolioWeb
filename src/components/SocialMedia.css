@@ -386,7 +386,7 @@ color: white !important;
     }
 }
 
-@media (min-width:336px) and (max-width:430px) {
+@media (min-width:300px) and (max-width:430px) {
     .social-box,.social-box2,.social-box3,.social-box4{
         width: 80% !important;
         margin-left: 40px;
