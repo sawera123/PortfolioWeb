@@ -10,7 +10,7 @@ export default function Resume() {
 
 {/* <!-- ====== about-area-start */}
 {/* ==================================================== --> */}
-<div id="about" className="about-area over-hidden aboutbgdark">
+<div id="about" className="about-area over-hidden aboutbgdark" style={{"background-color": "black"}}>
     <div className="about-content-wrapper about-margin mt-170 mb-110 position-relative">
         <div className="container">
             <div className="row justify-content-center">

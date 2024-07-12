@@ -54,8 +54,8 @@ export default function Home() {
 
     <>
 
-    <main className="over-hidden aboutbgdark">
-      <div id="home" className="slider-area slider-bg-color  over-hidden">
+    <main className="over-hidden aboutbgdark"  style={{"background-color": "black"}}>
+      <div id="home" className="slider-area   over-hidden"  style={{"background-color": "black"}}>
         <div className="single-slider slider-height over-hidden position-relative xxl-device-width bg-cover no-repeat"
              >
 

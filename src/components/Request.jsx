@@ -6,8 +6,8 @@ export default function Request() {
        <main className="over-hidden">
         {/* <!-- ====== contact-area-start */}
 
-        <div id="contact" className="contact-area over-hidden  aboutbgdark">
-            <div id="hero-btn" className="contact-wrapper over-hidden position-relative" style={{"margin-top": "150px"}}>
+        <div id="contact" className="contact-area over-hidden  aboutbgdark" style={{"background-color": "black"}}>
+            <div id="hero-btn" className="contact-wrapper over-hidden position-relative" style={{"margin-top": "150px"}} >
                 <div className="container">
                     <div className="row align-items-start">
                         <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">

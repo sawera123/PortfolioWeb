@@ -4,12 +4,12 @@ export default function Journal() {
   return (
     <>
   
-       <main className="over-hiddenn">
+       <main className="over-hiddenn" style={{"background-color": "black"}}>
 
 {/* <!-- ====== blog-area-start */}
 
-<div id="blog" className="blog-area over-hidden">
-    <div className="blog-wrappers section-bg pt-160 pb-120">
+<div id="blog" className="blog-area over-hidden" style={{"background-color": "black"}}>
+    <div className="blog-wrappers  pt-160 pb-120">
         <div className="container">
             <div className="row">
                 <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">

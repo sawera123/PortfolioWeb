@@ -7,7 +7,7 @@ export default function SocialMedia() {
   return (
     <>
    
-      <div className='social-media-pg mb-0'>
+      <div className='social-media-pg mb-0' style={{"background-color": "black"}}>
           <div className="container">
             <div className="row ">
               <div className="col-lg-3 col-md-6 col-sm-12  mb-4">
