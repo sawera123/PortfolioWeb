@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header className="over-hidden">
-        <div id="header-sticky" className="transparent-header header-area  " style={{"background-color": "black"}}>
+        <div id="header-sticky" className="transparent-header header-area" style={{"background-color": "black"}}>
           <div className="header">
             <div className="container">
               <div className="row align-items-center">
