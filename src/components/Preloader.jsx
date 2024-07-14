@@ -22,7 +22,7 @@ const Preloader = () => {
             <div className="loadingCenter">
               <div className="loadingCenterAbsolute">
               <div className="preloaderRotate">
-                <img src="images/logo/image.gif" alt="THAMES" className="logo rotate" />
+                <img src="images/logo/image.gif" alt="THAMES" className="logo-rotate" />
               </div>
               </div>
             </div>

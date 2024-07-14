@@ -196,9 +196,9 @@
   flex-direction: column;
 }
 
-.logo {
-  max-width: 100%; /* Ensures the logo is responsive */
-  height: auto;    /* Maintains the aspect ratio */
+.preloaderRotate img{
+  width: 100%;
+  height: 180px;
 }
 
 .preloaderRotate {
