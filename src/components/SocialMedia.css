@@ -240,37 +240,38 @@ color: white !important;
     border: 1px solid #ccc;
     z-index: 2;
    color: white;
+   width: 40%;
 }
 
-.bio-inputs input[type="email"] {
+.bio-inputs input[type="password"] {
     flex: 1;
     padding: 10px;
     overflow: hidden;
      border: none;
      border-radius:none;
-     background-color: rgba(178, 178, 178, 0.626);
+     background-color: transparent;
      border-right: 1px solid white;
      color: white;
 }
 
 .bio-inputs button {
-    padding: 10px 20px;
+    padding: 10px 40px;
    border: none;
    border-radius:none;
     outline:none;
-    background-color: transparent;
+    background-color: rgba(131, 131, 131, 0.224);
     color: white;
     cursor: pointer;
 }
 
 
-.bio-inputs input[type="email"]::placeholder {
+.bio-inputs input[type="password"]::placeholder {
     color: white;
     outline: none !important;
     border: none !important;
 }
 
-.bio-inputs input[type="email"]:focus{
+.bio-inputs input[type="password"]:focus{
     color: white;
     overflow: hidden;
     outline: none !important;

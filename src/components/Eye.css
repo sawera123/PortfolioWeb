@@ -1,0 +1,135 @@
+/* src/components/Eye.css */
+.password-pg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background: #000;
+}
+.eye-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 100px;
+    color: white;
+    background-color: black;
+  }
+  
+  .eye, .blink {
+    /* width: 150px;
+    height: 80px;
+    background: #fff;
+    border: 5px solid #000;
+    border-radius: 0% 80%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    font-size: 0.65rem;
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid white;
+    transform: rotate(-45deg);
+    transform-origin: 30px 20px;
+    border-radius: 4% 99%;
+  }
+  
+  .pupil-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .pupil-outer{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .pupil {
+    
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.1s;
+    position: relative;
+  }
+  .pupil-dot{
+    position: absolute;
+    content:"";
+    background-color: rgb(169, 114, 55);
+    background-color: #aaa9a9;
+    width: 4px;
+    height: 4px;
+    /* left: 16px; */
+    border: none;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 5px;
+  }
+  .blink::before {
+    content: '';
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    background: rgba(0, 0, 0, 0.5); */
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    font-size: 0.65rem;
+    position: absolute;
+   
+    /* transform-origin: 30px 20px; */
+    border-radius: 4% 99%;
+    animation: blink-animation 0.2s linear;
+    
+  }
+  
+  @keyframes blink-animation {
+    0%, 100% {
+      height: 0;
+    }
+    50% {
+      height: 100%;
+    }
+  }
+  
+  /* password protected area */
+  .pass-proteted-area{
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    align-items:center;
+    /* justify-content: center; */
+    top: -800 !important;
+    width: 100%;
+   
+    background-color: black;
+  }
+  .pass-proteted-area h2{
+    color: white;
+   font-size: 60px;
+  }
+  .pass-proteted-area p{
+    color: white;
+   /* font-size: 60px; */
+   font-weight: 500;
+  }
+  .pass-proteted-area input{
+    width: 40%;
+    padding: 8px;
+    font-size: 20px;
+  }

@@ -7,6 +7,7 @@ import JournalPage from '../src/Pages/JournalPage.jsx';
 import StorePage from '../src/Pages/StorePage.jsx';
 import SocialMediaPage from '../src/Pages/SocialMediaPage.jsx';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Eye from './components/Eye.jsx';
 function App() {
   return (
   <>
@@ -15,6 +16,7 @@ function App() {
         <>
               <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/eye" element={<Eye />} />
                 <Route path="/resume" element={<ResumePage />} />
                 <Route path="/request" element={<RequestPage />} />
                 <Route path="/journal" element={<JournalPage />} />

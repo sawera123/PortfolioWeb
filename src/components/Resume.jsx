@@ -107,7 +107,7 @@ export default function Resume() {
 {/* <!-- about-area-end --> */}
 
   {/* <!-- Education Area start --> */}
-  <div className="education-area over-hidden aboutbgdark">
+  <div className="education-area over-hidden aboutbgdark pt-100">
     <div className="container">
         <div className="row position-relative">
             <div className="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
