@@ -1,6 +1,9 @@
+import { t } from 'i18next'
 import React from 'react'
+import { useTranslation} from "react-i18next";
 
 export default function Request() {
+    const { t } = useTranslation();
   return (
     <>
        <main className="over-hidden">
@@ -12,8 +15,8 @@ export default function Request() {
                     <div className="row align-items-start">
                         <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                             <div className="title text-center">
-                                <span className="meta-text-color text-uppercase d-block mb-6">Contact Me</span>
-                                <h2>Let’s Start A New Project</h2>
+                                <span className="meta-text-color text-uppercase d-block mb-6"> {t("CONTACT ME")}</span>
+                                <h2>{t("Let’s Start A New Project")}</h2>
                             </div>
                             {/* <!-- /title --> */}
                         </div>
@@ -30,7 +33,7 @@ export default function Request() {
                                             </span>
                                         </div>
                                         <div className="contact-text d-inline-block">
-                                            <h4 className="mb-2">Location</h4>
+                                            <h4 className="mb-2">{t("Location")}</h4>
                                             <p className="text-color mb-0">20 Bordeshi, London, Usa</p>
                                         </div>
                                     </li>
@@ -43,7 +46,7 @@ export default function Request() {
                                             </span>
                                         </div>
                                         <div className="contact-text">
-                                            <h4 className="mb-2">Phone</h4>
+                                            <h4 className="mb-2"> {t("Phone")}</h4>
                                             <p className="mb-0">
                                                 <a className="text-color primary-hover d-block" href="#">+123 456
                                                     7890</a>
@@ -58,10 +61,10 @@ export default function Request() {
                                             </span>
                                         </div>
                                         <div className="contact-text d-inline-block">
-                                            <h4 className="mb-2">Email</h4>
+                                            <h4 className="mb-2"> {t("Email")}</h4>
                                             <p className="mb-0">
                                                 <a className="text-color primary-hover d-block"
-                                                    href="#">hello@thames.com</a>
+                                                    href="#">hello@abc.com</a>
                                             </p>
                                         </div>
                                     </li>

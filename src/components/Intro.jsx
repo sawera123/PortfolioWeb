@@ -1,6 +1,8 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 export default function Intro() {
+    const { t } = useTranslation();
   return (
     <>
          <main class="over-hiddenn">
@@ -14,7 +16,7 @@ export default function Intro() {
                                 <img src="images/icon/intro-ft-icon1.png" alt="icon1"/>
                             </div>
                             <div className="intro-feature-text">
-                                <h4 className="mb-22">Dedication</h4>
+                                <h4 className="mb-22">{t("Dedication")}</h4>
                                 <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
                                     sopno vitae.</p>
                             </div>
@@ -28,7 +30,7 @@ export default function Intro() {
                                 <img src="images/icon/intro-ft-icon2.png" alt="icon1"/>
                             </div>
                             <div className="intro-feature-text">
-                                <h4 className="mb-22">Smart Work</h4>
+                                <h4 className="mb-22">{t("Smart Work")}</h4>
                                 <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
                                     sopno vitae.</p>
                             </div>
@@ -42,7 +44,7 @@ export default function Intro() {
                                 <img src="images/icon/intro-ft-icon3.png" alt="icon1"/>
                             </div>
                             <div className="intro-feature-text">
-                                <h4 className="mb-22">Collaboration</h4>
+                                <h4 className="mb-22"> {t("Collaboration")}</h4>
                                 <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
                                     sopno vitae.</p>
                             </div>
@@ -56,7 +58,7 @@ export default function Intro() {
                                 <img src="images/icon/intro-ft-icon4.png" alt="icon1"/>
                             </div>
                             <div className="intro-feature-text">
-                                <h4 className="mb-22">Technology</h4>
+                                <h4 className="mb-22"> {t("Technology")}</h4>
                                 <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
                                     sopno vitae.</p>
                             </div>

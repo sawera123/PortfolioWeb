@@ -1,5 +1,6 @@
 
 import './App.css';
+import './i18n'; // Import the i18n configuration
 import HomePage from "../src/Pages/HomePage.jsx"
 import ResumePage from '../src/Pages/ResumePage.jsx';
 import RequestPage from '../src/Pages/RequestPage.jsx';

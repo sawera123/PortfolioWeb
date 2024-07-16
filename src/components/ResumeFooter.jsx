@@ -1,6 +1,8 @@
 import React from 'react'
-
+import { useTranslation } from "react-i18next";
 export default function RequestFooter() {
+    const { t } = useTranslation();
+
   return (
     <>
     <footer>
@@ -14,9 +16,9 @@ export default function RequestFooter() {
                                     <img src="images/logo/logo-dark.png" alt="Themes"/>
                                 </div>
                                 <div className="copyright-text">
-                                    <p className="mb-0">All rights reserved
+                                    <p className="mb-0">  {t(" All rights reserved ")}
                                         <a href="https://themeforest.net/user/ethemestudio"
-                                            className="c-theme theme-color f-600 transition5">eThemeStudio</a>
+                                            className="c-theme theme-color f-600 transition5"> SamiAlbin</a>
                                         © 2024
                                     </p>
                                 </div>
@@ -25,7 +27,7 @@ export default function RequestFooter() {
                         <div
                             className="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12 d-none d-sm-block d-lg-none">
                             <div className="footer-widget pb-40">
-                                <h4 className="mb-28 mt-2">Follow Me</h4>
+                                <h4 className="mb-28 mt-2">{t("Follow Me")}</h4>
                                 <ul className="social social-bg text-center d-flex">
                                     <li className="mr-2 rotate-hover">
                                         <a className="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"
@@ -49,7 +51,7 @@ export default function RequestFooter() {
                         </div>
                         <div className="col-xl-3  col-lg-4  col-md-12  col-sm-12 col-12">
                             <div className="footer-widget pb-40">
-                                <h4 className="mb-28 mt-2">Newsletter</h4>
+                                <h4 className="mb-28 mt-2"> {t("Newsletter")}</h4>
                                 <div className="newsletter-form">
                                     <form action="#">
                                         <div className="subscribe-info position-relative">
@@ -65,7 +67,7 @@ export default function RequestFooter() {
                         </div>
                         <div className="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12  d-sm-none d-lg-block">
                             <div className="footer-widget pb-40">
-                                <h4 className="mb-28 mt-2">Follow Me</h4>
+                                <h4 className="mb-28 mt-2">{t(" Follow Me")}</h4>
                                 <ul className="social social-bg text-center d-flex">
                                     <li className="mr-2 rotate-hover">
                                         <a className="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"

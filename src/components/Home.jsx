@@ -2,8 +2,11 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'typer-js';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+  const { t } = useTranslation();
+
   useEffect(() => {
     // Initialize AOS
     AOS.init({
@@ -14,8 +17,9 @@ export default function Home() {
 
     // Initialize typer.js for the typing effect
     const typerElement = document.getElementById('main');
-    new window.Typer(typerElement, {
-      strings: ['Developer'],
+    const typer= new window.Typer(typerElement, {
+      // strings: ['Developer'],
+      strings: [t('Developer')],
       delay: 1000,
       colors: ['#25262f'],
       endless: true,
@@ -47,8 +51,9 @@ export default function Home() {
     // Clean up
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
+      typer.stop();
     };
-  }, []); // Empty dependency array means this effect runs once after mount
+  }, [t]); // Empty dependency array means this effect runs once after mount
 
   return (
 
@@ -72,22 +77,29 @@ export default function Home() {
                 <div className="slider-content text-center text-center position-relative z-index11"
                      data-aos="fade-right" data-aos-duration="2200" data-aos-delay="1000">
                   <h1 className="mb-15 white-text">
-                    <span className="sub-heading d-block text-uppercase primary-color mb-1">Hello I’m</span>
+                    <span className="sub-heading d-block text-uppercase primary-color mb-1"> {t("Hello I’m")}</span>
                     Sami <span className="hm2-m-hero-text-style">Albin</span>
                   </h1>
                   <h2 className="text-capitalize white-text mb-45">
-                    A Passionate
+                   {t("A Passionate")} 
                     <span className="d-text d-block d-sm-inline-block">
-                      <span className="typer primary-color d-inline-block pl-2" id="main"
-                            data-words="Student" data-delay="100"
-                            data-colors="#25262f"></span>
+                      {/* <span className="typer primary-color d-inline-block pl-2" id="main"
+                            data-words="Developer" data-delay="100"
+                            data-colors="#25262f"></span> */}
+                            <span
+                          className="typer primary-color d-inline-block pl-2"
+                          id="main"
+                          data-words={t("Developer")}
+                          data-delay="100"
+                          data-colors="#25262f"
+                        ></span>
                       <span className="cursor primary-color d-inline-block">_</span>
                     </span>
                   </h2>
                   <a href="#hero-btn"
-                     className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3">Say Hello</a>
+                     className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3"> {t("Say Hello")}</a>
                   <a href="#hero-btn"
-                     className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5">About Me</a>
+                     className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5">{t("About Me")}</a>
                 </div>
               </div>
             </div>

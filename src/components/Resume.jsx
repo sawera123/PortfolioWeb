@@ -1,8 +1,10 @@
 import React from 'react'
 import NavBar from './NavBar'
 import RequestFooter from './ResumeFooter'
+import { useTranslation } from "react-i18next";
 
 export default function Resume() {
+    const { t } = useTranslation();
   return (
     <>
   
@@ -47,8 +49,8 @@ export default function Resume() {
                     <div className="about-content position-relative mb-50">
                         <div className="position-relative">
                             <div className="title">
-                                <span className="meta-text-color text-uppercase d-block mb-1 mt--5">About Me</span>
-                                <h2 className="mb-30">I Develop System that Works</h2>
+                                <span className="meta-text-color text-uppercase d-block mb-1 mt--5">{t("About Me")}</span>
+                                <h2 className="mb-30"> {t("I Develop System that Works")} </h2>
                             </div>
                         </div>
                         <p className="mb-25">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -60,9 +62,9 @@ export default function Resume() {
                                 <div className="col-xl-6  col-lg-12  col-md-6  col-sm-12 col-12">
                                     <ul className="about-info">
                                         <li className="d-inline-block pr-50">
-                                            <p className="jostMedium-font-family mb-6">Name</p>
-                                            <p className="jostMedium-font-family mb-6">Age</p>
-                                            <p className="jostMedium-font-family mb-6">Occupation</p>
+                                            <p className="jostMedium-font-family mb-6">{t("Name")}</p>
+                                            <p className="jostMedium-font-family mb-6">{t("Age")}</p>
+                                            <p className="jostMedium-font-family mb-6">{t("Occupation")}</p>
                                         </li>
                                         <li className="d-inline-block">
                                             <p className="mb-6">Sami Albin</p>
@@ -74,9 +76,9 @@ export default function Resume() {
                                 <div className="col-xl-6  col-lg-12  col-md-6  col-sm-12 col-12">
                                     <ul className="about-info">
                                         <li className="d-inline-block pr-50">
-                                            <p className="jostMedium-font-family mb-6">Phone</p>
+                                            <p className="jostMedium-font-family mb-6">{t("Phone")}</p>
                                             <p className="jostMedium-font-family mb-6">Email</p>
-                                            <p className="jostMedium-font-family mb-6">Nationality</p>
+                                            <p className="jostMedium-font-family mb-6">{t("Nationality")}</p>
                                         </li>
                                         <li className="d-inline-block">
                                             <p className="mb-6">+123 456 7890</p>
@@ -113,10 +115,10 @@ export default function Resume() {
             <div className="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
                 <div className="position-relative">
                     <div className="title">
-                        <span className="meta-text-color text-uppercase d-block mb-1">Education</span>
-                        <h2 className="mb-25">My Education</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus kobita tumi sopno charini hoye khbor
-                            nio na sit voluptatem accusantium dolore.</p>
+                        <span className="meta-text-color text-uppercase d-block mb-1"> {t("Education")}</span>
+                        <h2 className="mb-25"> {t("My Education")}</h2>
+                        <p>    {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+                        </p>
                     </div>
                 </div>
                 <div className="education-wrapper mr-20 pt-25 mb-50">
@@ -128,11 +130,13 @@ export default function Resume() {
                                 </span>
                             </div>
                             <div className="experience-service-text d-inline-block">
-                                <h3 className="mb-2">Masters in Computer Science</h3>
-                                <h4>New York University <span className="meta-text-color openS-font-family"> ( 2012
+                                <h3 className="mb-2"> {t("Masters in Computer Science")} </h3>
+                                <h4> {t("New York University")} <span className="meta-text-color openS-font-family"> ( 2012
                                         - 2016 )</span></h4>
-                                <p className="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
-                                    inven tore veritatis et quasi architecto beatae vitae.</p>
+                                <p className="mb-0 mt-15">
+                                {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+         
+                                    </p>
                             </div>
                         </li>
                         <li className="mb-32 d-flex align-items-start rotate-hover">
@@ -142,11 +146,12 @@ export default function Resume() {
                                 </span>
                             </div>
                             <div className="experience-service-text d-inline-block">
-                                <h3 className="mb-2">Bachelor in Computer Engineering</h3>
-                                <h4>Dhaka University <span className="meta-text-color openS-font-family"> ( 2008 -
+                                <h3 className="mb-2"> {t("Bachelor in Computer Engineering")} </h3>
+                                <h4> {t("Dhaka University")} <span className="meta-text-color openS-font-family"> ( 2008 -
                                         2011 )</span></h4>
-                                <p className="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
-                                    inven tore veritatis et quasi architecto beatae vitae.</p>
+                                <p className="mb-0 mt-15">
+                                {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+                                </p>
                             </div>
                         </li>
                         <li className="mb-32 d-flex align-items-start rotate-hover">
@@ -156,11 +161,12 @@ export default function Resume() {
                                 </span>
                             </div>
                             <div className="experience-service-text d-inline-block">
-                                <h3 className="mb-2">Diploma in Graphic Design</h3>
-                                <h4>Bangla College <span className="meta-text-color openS-font-family"> ( 2006 -
+                                <h3 className="mb-2"> {t("Diploma in Graphic Design")}</h3>
+                                <h4> {t("Bangla College")} <span className="meta-text-color openS-font-family"> ( 2006 -
                                         2008 )</span></h4>
-                                <p className="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
-                                    inven tore veritatis et quasi architecto beatae vitae.</p>
+                                <p className="mb-0 mt-15">
+                                {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+                                </p>
                             </div>
                         </li>
                     </ul>
@@ -185,8 +191,8 @@ export default function Resume() {
         <div className="row">
             <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                 <div className="title text-center">
-                    <span className="meta-text-color text-uppercase d-block mb-6">Success Stories</span>
-                    <h2>Awards & Achivements</h2>
+                    <span className="meta-text-color text-uppercase d-block mb-6"> {t("Success Stories")}</span>
+                    <h2> {t("Awards & Achivements")}</h2>
                 </div>
             </div>
         </div>
@@ -201,20 +207,20 @@ export default function Resume() {
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Best Developer</h3>
+                        <h3 className="mb-10"> {t("Best Developer")}</h3>
                         <p className="meta-text-color">2022</p>
                     </div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Developer Association</h3>
-                        <p className="meta-text-color">New York, Usa</p>
+                        <h3 className="mb-10"> {t("Developer Association")} </h3>
+                        <p className="meta-text-color"> {t("New York, Usa")} </p>
                     </div>
                 </div>
                 <div className="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
                     <div className="award-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            dolore.</p>
+                        <p>    {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -228,20 +234,20 @@ export default function Resume() {
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Developer of the Year</h3>
+                        <h3 className="mb-10"> {t("Developer of the Year")}</h3>
                         <p className="meta-text-color">2021</p>
                     </div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Dev Internatioal</h3>
+                        <h3 className="mb-10"> {t("Dev Internatioal")}</h3>
                         <p className="meta-text-color">London, England</p>
                     </div>
                 </div>
                 <div className="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
                     <div className="award-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                            dolore.</p>
+                        <p>    {t('Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.')}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -255,13 +261,13 @@ export default function Resume() {
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Fastest Coder</h3>
+                        <h3 className="mb-10">{t("Fastest Coder")}</h3>
                         <p className="meta-text-color">2019</p>
                     </div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
-                        <h3 className="mb-10">Amazing Programmer</h3>
+                        <h3 className="mb-10"> {t("Amazing Programmer")} </h3>
                         <p className="meta-text-color">Dhaka, Bangladesh</p>
                     </div>
                 </div>
@@ -285,7 +291,7 @@ export default function Resume() {
                     <div className="position-relative">
                         <div className="title">
                             <span className="meta-text-color text-uppercase d-block mb-1 mt--5">Fun Facts</span>
-                            <h2 className="mb-30 text-white">I Develop System that Works</h2>
+                            <h2 className="mb-30 text-white">{t("I Develop System that Works")}</h2>
                         </div>
                     </div>
                     <p>Sed ut perspiciatis unde omnis iste natus kobita tumi sopno charini hoye
@@ -300,7 +306,7 @@ export default function Resume() {
                             <div className="mr-25 d-flex align-content-start justify-content-center">
                                 <span className="primary-color d-inline-block counter">12</span>
                             </div>
-                            <h3 className="text-white mb-0">Years of <br/> Experience</h3>
+                            <h3 className="text-white mb-0"> {t("Years of")} <br/>{t("Experience")} </h3>
                         </div>
                     </div>
 
@@ -310,7 +316,7 @@ export default function Resume() {
                                 <span className="primary-color d-inline-block counter">2</span>
                                 <span className="per d-inline-block primary-color">K</span>
                             </div>
-                            <h3 className="text-white mb-0">Total <br/> Clients</h3>
+                            <h3 className="text-white mb-0">{t("Total")} <br/>{t("Clients")} </h3>
                         </div>
                     </div>
 
@@ -320,7 +326,7 @@ export default function Resume() {
                                 <span className="primary-color d-inline-block counter">4</span>
                                 <span className="per d-inline-block primary-color">K</span>
                             </div>
-                            <h3 className="text-white mb-0">Projects <br/> Completed</h3>
+                            <h3 className="text-white mb-0"> {t("Projects")} <br/> {t("Completed")} </h3>
                         </div>
                     </div>
 
@@ -329,7 +335,7 @@ export default function Resume() {
                             <div className="mr-25 d-flex align-content-start justify-content-center">
                                 <span className="primary-color d-inline-block counter">30</span>
                             </div>
-                            <h3 className="text-white mb-0">Digital <br/> Products</h3>
+                            <h3 className="text-white mb-0"> {t("Digital")} <br/>  {t("Products")}</h3>
                         </div>
                     </div>
 
