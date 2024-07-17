@@ -72,7 +72,7 @@ const Eye = () => {
     value={password}
     onChange={handlePasswordChange}
   />
-  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={30} /></button>
+  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={25} /></button>
 </div>
 
               <div className="flex text-center align-items-center justify-content-center pass-pg-btn pt-40 gap-20 mt-10 ">

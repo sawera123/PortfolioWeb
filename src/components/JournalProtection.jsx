@@ -73,7 +73,7 @@ const JournalProtection = () => {
     value={password}
     onChange={handlePasswordChange}
   />
-  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={30}/>
+  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={25}/>
 
   </button>
 </div>
