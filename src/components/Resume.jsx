@@ -2,9 +2,29 @@ import React from 'react'
 import NavBar from './NavBar'
 import RequestFooter from './ResumeFooter'
 import { useTranslation } from "react-i18next";
+import { IoCarSportSharp } from "react-icons/io5";
+import { FaSkating } from "react-icons/fa";
+import { PiMusicNotesPlusBold } from "react-icons/pi";
+import { TiCamera } from "react-icons/ti";
+import Certificate from "./Certificate.png"
+import Certificate2 from "./Certificate2.png"
+import DownloadButton from './DownloadButton';
 
 export default function Resume() {
     const { t } = useTranslation();
+
+  // Define handleDownload function to handle certificate downloads
+  const handleDownload = (certificateUrl, fileName) => {
+    const link = document.createElement('a');
+    link.href = certificateUrl;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+
+    
   return (
     <>
   
@@ -181,6 +201,68 @@ export default function Resume() {
             </div>
         </div>
     </div>
+
+    <br />
+  
+
+
+                <div className="container">
+        <div className="row">
+            <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                <div className="title text-center">
+                   <h2> {t("Hobbies ")}</h2>
+
+                </div>
+                <div className=" container award-wrapper mt-70">
+            <div className="row align-items-start theme-border-top award-margin pt-40 pb-35">
+                <div className="col-xl-3 col-lg-3  col-md-6  col-sm-12 col-12">
+                    <div className="award-logo flex align-items-center pt-20 mt-10 mb-20">
+                    <a href="#" className="d-block text-xl">
+                  <FaSkating size={50} color="white" /> {/* Set the size using the `size` prop */}
+                    </a>
+                        <div className="award-content pt-20 mt-10">
+                        <h3 className="mb-10"> {t("Sports")}</h3>
+                        
+                    </div>
+                    </div>
+                </div>
+                <div className="col-xl-3  col-lg-3  col-md-6  col-sm-12 col-12">
+                    <div className="award-logo mt-10 mb-20">
+                        <a href="#" className="d-block">
+                        <IoCarSportSharp size={50} color="white"/>   </a>
+                        <div className="award-content">
+                        <h3 className="mb-10"> {t(" Photography")}</h3>
+                        <p className="meta-text-color">2022</p>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-xl-3  col-lg-3  col-md-6  col-sm-12 col-12">
+                    <div className="award-logo mt-10 mb-20">
+                        <a href="#" className="d-block">
+                        <PiMusicNotesPlusBold size={50} color="white" /> </a>
+                        <div className="award-content">
+                        <h3 className="mb-10"> {t("Music")}</h3>
+                        <p className="meta-text-color">2022</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-xl-3  col-lg-3  col-md-6  col-sm-12 col-12">
+                    <div className="award-logo mt-10 mb-20">
+                        <a href="#" className="d-block">
+                        <TiCamera  size={50} color="white" /> </a>
+                        <div className="award-content">
+                        <h3 className="mb-10"> {t("Music")}</h3>
+                        <p className="meta-text-color">2022</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+                </div>
+            </div>
+        </div>
 </div>
   {/* <!-- Education Area end -->
 
@@ -192,7 +274,7 @@ export default function Resume() {
             <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                 <div className="title text-center">
                     <span className="meta-text-color text-uppercase d-block mb-6"> {t("Success Stories")}</span>
-                    <h2> {t("Awards & Achivements")}</h2>
+                    <h2> {t("Certificates & Experties")}</h2>
                 </div>
             </div>
         </div>
@@ -209,12 +291,21 @@ export default function Resume() {
                     <div className="award-content">
                         <h3 className="mb-10"> {t("Best Developer")}</h3>
                         <p className="meta-text-color">2022</p>
+                        <DownloadButton
+                            certificateUrl={Certificate}
+                            fileName="Certificate.png"
+                            buttonText="Download Certificate"
+                            onClick={() => handleDownload(Certificate, "Certificate.png")}
+                            className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3"
+                        />
+
                     </div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
                         <h3 className="mb-10"> {t("Developer Association")} </h3>
                         <p className="meta-text-color"> {t("New York, Usa")} </p>
+                        
                     </div>
                 </div>
                 <div className="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
@@ -236,6 +327,12 @@ export default function Resume() {
                     <div className="award-content">
                         <h3 className="mb-10"> {t("Developer of the Year")}</h3>
                         <p className="meta-text-color">2021</p>
+                        <DownloadButton
+                            certificateUrl={Certificate2}
+                            fileName="Certificate2.png"
+                            buttonText="Download Certificate"
+                            onClick={() => handleDownload(Certificate2, "Certificate2.png")}
+                        />
                     </div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
@@ -263,7 +360,12 @@ export default function Resume() {
                     <div className="award-content">
                         <h3 className="mb-10">{t("Fastest Coder")}</h3>
                         <p className="meta-text-color">2019</p>
-                    </div>
+                        <DownloadButton
+                            certificateUrl={Certificate}
+                            fileName="Certificate.png"
+                            buttonText="Download Certificate"
+                            onClick={() => handleDownload(Certificate, "Certificate.png")}
+                        /></div>
                 </div>
                 <div className="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
                     <div className="award-content">
