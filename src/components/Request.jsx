@@ -15,7 +15,7 @@ export default function Request() {
                     <div className="row align-items-start">
                         <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                             <div className="title text-center">
-                                <span className="meta-text-color text-uppercase d-block mb-6"> {t("CONTACT ME")}</span>
+                                <span className="meta-text-color  d-block mb-6"> {t("CONTACT ME")}</span>
                                 <h2>{t("Let’s Start A New Project")}</h2>
                             </div>
                             {/* <!-- /title --> */}
