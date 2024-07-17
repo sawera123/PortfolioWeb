@@ -6,6 +6,8 @@
     align-items: center;
     height: 100vh;
    background: #000;
+   z-index: 9999;
+   margin-bottom: 8rem;
 }
 .eye-container {
     display: flex;

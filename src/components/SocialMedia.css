@@ -240,7 +240,7 @@ color: white !important;
     border: 1px solid #ccc;
     z-index: 2;
    color: white;
-   width: 40%;
+   width: 100%;
 }
 
 .bio-inputs input[type="password"] {
@@ -255,7 +255,7 @@ color: white !important;
 }
 
 .bio-inputs button {
-    padding: 10px 40px;
+    width: 25%;
    border: none;
    border-radius:none;
     outline:none;
