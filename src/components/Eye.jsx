@@ -79,7 +79,13 @@ const Eye = () => {
                 <div>
                 <a href="#hero-btn" className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3">{t("Send Request")} </a></div>
                 <div>
-                <a href="#hero-btn" className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5"> {t("DM on Insta")}</a>
+                <a href="#hero-btn" className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5"> {t("DM on Insta")} 
+                <span className="mr-2 rotate-hover">
+                                        <a className="ml-2 instagram text-center pr-0 text-white d-inline rotate transition-3"
+                                            href="#"><i className="fab fa-instagram"></i></a>
+                                    </span>
+
+                </a>
                 </div> </div>
             </div>
           </div>
