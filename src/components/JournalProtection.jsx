@@ -3,6 +3,9 @@ import './Eye.css';
 import Header from './Header';
 import { useTranslation } from 'react-i18next';
 import Journal from "./Journal";
+import { FaArrowRightLong } from "react-icons/fa6";
+  
+
 const JournalProtection = () => {
   const { t, i18n } = useTranslation();
 
@@ -70,7 +73,9 @@ const JournalProtection = () => {
     value={password}
     onChange={handlePasswordChange}
   />
-  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> Submit</button>
+  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={30}/>
+
+  </button>
 </div>
 
               <div className="flex text-center align-items-center justify-content-center pass-pg-btn pt-40 gap-20 mt-10 ">
