@@ -11,7 +11,7 @@ export default function Store() {
             <div className="row justify-content-center">
                 <div className="col-10 text-center">
 
-                    <h1 className="tect-white mt-5" style={{"color": "white"}}> {t("Coming Soon")}........</h1>
+                    <h1 className="tect-white mt-5" style={{"color": "white"}}> {t("Coming Soon........")} </h1>
 
 
                 </div>

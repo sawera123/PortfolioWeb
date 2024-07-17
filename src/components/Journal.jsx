@@ -360,7 +360,7 @@ export default function Journal() {
                                                             className="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
                                                             <div
                                                                 className="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
-                                                                <h6 className="pr-12 mb-0 pb-0">Share :</h6>
+                                                                <h6 className="pr-12 mb-0 pb-0"> {t("Share")} :</h6>
                                                                 <ul className="social-link text-md-right">
                                                                     <li className="d-inline-block">
                                                                         <a className="facebook-color text-center pl-15 d-inline-block transition-3"
