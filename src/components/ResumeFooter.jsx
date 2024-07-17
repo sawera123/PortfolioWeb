@@ -67,7 +67,7 @@ export default function RequestFooter() {
                         </div>
                         <div className="col-xl-3 offset-xl-2 col-lg-3  col-md-4 col-sm-4 col-12  d-sm-none d-lg-block">
                             <div className="footer-widget pb-40">
-                                <h4 className="mb-28 mt-2">{t(" Follow Me")}</h4>
+                                <h4 className="mb-28 mt-2">{t("Follow Me")}</h4>
                                 <ul className="social social-bg text-center d-flex">
                                     <li className="mr-2 rotate-hover">
                                         <a className="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"

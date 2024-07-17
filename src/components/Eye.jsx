@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './Eye.css';
 import Resume from './Resume'; // Assuming Resume.jsx is in the same directory
 import Header from './Header';
+import { useTranslation } from 'react-i18next';
 
+  
 const Eye = () => {
+  const { t, i18n } = useTranslation();
+
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
   const [blink, setBlink] = useState(false);
@@ -57,8 +61,8 @@ const Eye = () => {
             </div>
 
             <div className='pass-proteted-area pt-100'>
-              <h2 className='pass-heading'>This content is protected.</h2>
-              <p>To view, please enter any password.</p>
+              <h2 className='pass-heading'> {t("This content is protected.")}</h2>
+              <p> {t("To view, please enter any password.")}</p>
               <br />
               <div className="bio-inputs pass-inputs flex justify-center">
   <input
@@ -68,14 +72,14 @@ const Eye = () => {
     value={password}
     onChange={handlePasswordChange}
   />
-  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}>Submit</button>
+  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> Submit</button>
 </div>
 
               <div className="flex text-center align-items-center justify-content-center pass-pg-btn pt-40 gap-20 mt-10 ">
                 <div>
-                <a href="#hero-btn" className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3"> Send Request</a></div>
+                <a href="#hero-btn" className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3">{t("Send Request")} </a></div>
                 <div>
-                <a href="#hero-btn" className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5">DM on Insta</a>
+                <a href="#hero-btn" className="btn position-relative about-me-btn over-hidden bg-transparent main-border text-uppercase transition5"> {t("DM on Insta")}</a>
                 </div> </div>
             </div>
           </div>

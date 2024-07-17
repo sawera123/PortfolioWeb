@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 
 export default function Journal() {
+    
+    const { t } = useTranslation();
   return (
     <>
   
@@ -14,8 +17,8 @@ export default function Journal() {
             <div className="row">
                 <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
                     <div className="title">
-                        <span className="meta-text-color text-uppercase d-block mb-6">Get Updates</span>
-                        <h2>Recent Blog</h2>
+                        <span className="meta-text-color text-uppercase d-block mb-6"> {t("Get Updates")}</span>
+                        <h2> {t("Recent Blog")} </h2>
                     </div>
                 </div>
             </div>
@@ -31,14 +34,14 @@ export default function Journal() {
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-folder"></i></span>
-                                    <span className="meta-text-color openS-font-family d-inline-block">Web
-                                        Design</span>
+                                    <span className="meta-text-color openS-font-family d-inline-block">
+                                    {t("Web Design")} </span>
                                 </li>
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-user"></i></span>
                                     <a className="meta-text-color openS-font-family d-inline-block"
-                                        href="#">Admin</a>
+                                        href="#"> {t("Admin")} </a>
                                 </li>
                                 <li className="d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
@@ -66,14 +69,14 @@ export default function Journal() {
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-folder"></i></span>
-                                    <span className="meta-text-color openS-font-family d-inline-block">Web
-                                        Design</span>
+                                    <span className="meta-text-color openS-font-family d-inline-block">
+                                    {t("Web Design")} </span>
                                 </li>
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-user"></i></span>
                                     <a className="meta-text-color openS-font-family d-inline-block"
-                                        href="#">Admin</a>
+                                        href="#"> {t("Admin")} </a>
                                 </li>
                                 <li className="d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
@@ -101,14 +104,14 @@ export default function Journal() {
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-folder"></i></span>
-                                    <span className="meta-text-color openS-font-family d-inline-block">Web
-                                        Design</span>
+                                    <span className="meta-text-color openS-font-family d-inline-block">
+                                    {t("Web Design")} </span>
                                 </li>
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-user"></i></span>
                                     <a className="meta-text-color openS-font-family d-inline-block"
-                                        href="#">Admin</a>
+                                        href="#">{t("Admin")} </a>
                                 </li>
                                 <li className="d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
@@ -135,14 +138,14 @@ export default function Journal() {
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-folder"></i></span>
-                                    <span className="meta-text-color openS-font-family d-inline-block">Web
-                                        Design</span>
+                                    <span className="meta-text-color openS-font-family d-inline-block">
+                                    {t("Web Design")} </span>
                                 </li>
                                 <li className="mr-15 d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
                                             className="fas fa-user"></i></span>
                                     <a className="meta-text-color openS-font-family d-inline-block"
-                                        href="#">Admin</a>
+                                        href="#">{t("Admin")} </a>
                                 </li>
                                 <li className="d-inline-block">
                                     <span className="meta-text-color d-inline-block mr-1"><i
@@ -340,7 +343,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
@@ -502,7 +505,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
@@ -664,7 +667,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
@@ -826,7 +829,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
@@ -988,7 +991,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
@@ -1150,7 +1153,7 @@ export default function Journal() {
                                                                 <ul className="tag-list">
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
-                                                                            href="#">Web Design</a>
+                                                                            href="#">{t("Web Design")}</a>
                                                                     </li>
                                                                     <li className="d-inline-block pr-10 ">
                                                                         <a className="meta-text-color d-block"
