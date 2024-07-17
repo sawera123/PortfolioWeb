@@ -64,7 +64,7 @@ const Eye = () => {
   <input
     type="password"
     placeholder="Enter your password"
-    className='w-100 max-w-sm md:max-w-md lg:max-w-lg p-2'
+    className='w-70 '
     value={password}
     onChange={handlePasswordChange}
   />

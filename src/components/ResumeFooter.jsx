@@ -6,7 +6,7 @@ export default function RequestFooter() {
   return (
     <>
     <footer>
-        <div className="footer-area over-hidden aboutbgdark mt-500 mb-0 pb-0" style={{"background-color": "black"}}>
+        <div className="footer-area over-hidden aboutbgdark pt-500 mb-0 pb-0" style={{"background-color": "black"}}>
             <div className="footer-top">
                 <div className="container">
                     <div className="row p-4">
