@@ -12,8 +12,9 @@ export default function RequestFooter() {
                     <div className="row p-4">
                         <div className="col-xl-4  col-lg-5  col-md-8  col-sm-7 col-12">
                             <div className="footer-widget footer-logo pb-40">
-                                <div className="foot-logo mb-30">
-                                    <img src="images/logo/logo-dark.png" alt="Themes"/>
+                            <div className="foot-logo mb-30">
+                                    <img src="images/logo/image.gif"
+                                    alt="THAMES"/>
                                 </div>
                                 <div className="copyright-text">
                                     <p className="mb-0">  {t(" All rights reserved ")}
