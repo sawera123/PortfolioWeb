@@ -240,7 +240,7 @@ color: white !important;
     border: 1px solid #ccc;
     z-index: 2;
    color: white;
-   width: 100%;
+   width: 60%;
 }
 
 .bio-inputs input[type="password"] {
@@ -259,7 +259,8 @@ color: white !important;
    border: none;
    border-radius:none;
     outline:none;
-    background-color: rgba(131, 131, 131, 0.224);
+    background-color: transparent;
+    /* background-color: rgba(131, 131, 131, 0.224); */
     color: white;
     cursor: pointer;
 }
@@ -415,23 +416,22 @@ color: white !important;
 
     .amazon-card {
         display: flex;
-        display: block;
         padding-left: 10px;
         align-items: center;
         justify-content: center;
       }
       .bio-inputs {
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 90%;
         display: block;
         border: 1px solid #ccc;
         z-index: 2;
        color: white;
     }
     .bio-inputs input{
-        width: 100%;
+        width: 60%;
         
          }
          /* .social-box2{

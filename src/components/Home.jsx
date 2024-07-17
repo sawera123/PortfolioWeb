@@ -96,6 +96,7 @@ export default function Home() {
                       <span className="cursor primary-color d-inline-block">_</span>
                     </span>
                   </h2>
+                  
                   <a href="#hero-btn"
                      className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3"> {t("Say Hello")}</a>
                   <a href="#hero-btn"
