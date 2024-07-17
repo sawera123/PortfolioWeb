@@ -47,9 +47,13 @@ export default function Header() {
                       <i className="far fa-bars"></i>
                     </Link>
                   </div>
-                  <div className="language-switch ml-30">
-                    <button onClick={() => changeLanguage('en')}>EN</button>
-                    <button onClick={() => changeLanguage('de')}>DE</button>
+                  <div className="language-switch ml-30 p-20  ">
+                    {/* <button onClick={() => changeLanguage('en')}>EN</button>
+                    <button onClick={() => changeLanguage('de')}>DE</button> */}
+                    <select onChange={(e) => changeLanguage(e.target.value)} value={i18n.language}>
+        <option value="en" className='options'>EN</option>
+        <option value="de" className='options'>DE</option>
+      </select>
                   </div>
                 </div>
               </div>

@@ -227,3 +227,27 @@
     transform: rotate(1800deg);
   }
 } */
+
+
+.language-switch {
+  background: transparent;
+  color: white;
+
+}
+.language-switch select{
+  background: transparent;
+  color: white;
+  width: 100%;
+  padding: 4px 16px;
+  border: none;
+  border: 1px solid rgb(115, 115, 115);
+  background: transparent;
+
+  border-radius:6% ;
+}
+.language-switch select option{
+  background: black !important;
+  color: white;
+  width: 100%;
+  padding: 4px 16px;
+}
