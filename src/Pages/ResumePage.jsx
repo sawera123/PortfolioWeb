@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import Header from '../components/Header'
-import ResumeFooter from '../components/ResumeFooter'
+import Footer from '../components/Footer'
 import Eye from '../components/Eye'
 import PasswordProtected from '../components/PasswordProtected'
 export default function ResumePage() {
@@ -12,7 +12,7 @@ export default function ResumePage() {
        {/* <Eye/> */}
        {/* <PasswordProtected/> */}
     <Eye/>
-    <ResumeFooter/>
+    <Footer/>
     </>
   )
 }
