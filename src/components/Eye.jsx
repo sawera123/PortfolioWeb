@@ -3,7 +3,7 @@ import './Eye.css';
 import Resume from './Resume'; // Assuming Resume.jsx is in the same directory
 import Header from './Header';
 import { useTranslation } from 'react-i18next';
-
+import { FaArrowRightLong } from "react-icons/fa6";
   
 const Eye = () => {
   const { t, i18n } = useTranslation();
@@ -72,7 +72,7 @@ const Eye = () => {
     value={password}
     onChange={handlePasswordChange}
   />
-  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> Submit</button>
+  <button type="button" className="ml-2 p-2" onClick={handlePasswordSubmit}> <FaArrowRightLong size={30} /></button>
 </div>
 
               <div className="flex text-center align-items-center justify-content-center pass-pg-btn pt-40 gap-20 mt-10 ">

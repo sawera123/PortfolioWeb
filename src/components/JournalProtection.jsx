@@ -60,7 +60,7 @@ const JournalProtection = () => {
 
             <div className='pass-proteted-area pt-100'>
               <h2 className='pass-heading'> {t("This content is protected.")}</h2>
-              <p> {t("To view, please enter any password.")}</p>
+              <p> {t("If you ask nicely, you'll be granted access.")}</p>
               <br />
               <div className="bio-inputs pass-inputs flex justify-center">
   <input
