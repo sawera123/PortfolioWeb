@@ -294,10 +294,11 @@ export default function Resume() {
                         <DownloadButton
                             certificateUrl={Certificate}
                             fileName="Certificate.png"
-                            buttonText="Download Certificate"
+                            buttonText="Download certificate"
                             onClick={() => handleDownload(Certificate, "Certificate.png")}
                             className="btn position-relative over-hidden theme-bg text-uppercase transition5 mr-3"
                         />
+                        
 
                     </div>
                 </div>
