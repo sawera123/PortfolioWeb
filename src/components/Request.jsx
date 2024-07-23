@@ -21,7 +21,7 @@ export default function Request() {
                             {/* <!-- /title --> */}
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row flex align-items-center justify-content-center">
                         {/* <div className="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12"></div> */}
                         {/* <div className="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
                             <div className="contact-wrapper mt-70">
@@ -72,7 +72,7 @@ export default function Request() {
                                 </ul>
                             </div>
                         </div> */} 
-                        <div className="col-xl-12 col-lg-10 col-md-12  col-sm-12 col-12">
+                        <div className="col-xl-10 col-lg-8 col-md-12  col-sm-12 col-12">
                             <div className="contact-wrapper">
                                 <div className="contact-form mt-45">
                                     <form action="https://ethemestudio.com/demo/thames/6_home_minimal/php/mail.php" method="POST" id="contact-form">
