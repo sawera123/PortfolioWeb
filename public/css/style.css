@@ -509,6 +509,7 @@ a:hover,
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  border: none;
 }
 .logo a {
   display: block;
@@ -524,9 +525,12 @@ a:hover,
 }
 .sticky-menu .header {
   background: var(--main-color);
-  -webkit-box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
+  /* -webkit-box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
   -moz-box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
-  box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
+  box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1); */
+border: none;
+  background-color: black;
+  border-bottom: 1px solid white;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -554,6 +558,8 @@ a:hover,
   position: relative;
   transition: .5s;
   background: rgba(68, 67, 67, 0.22);
+ 
+
  
   
 }

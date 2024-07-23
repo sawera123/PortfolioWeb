@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <>
         <footer>
-        <div className="footer-area over-hidden" style={{"background-color": "black"}}> 
-            <div className="footer-top aboutbgdark">
+        <div className="footer-area over-hidden" style={{"background-color": "black", borderTop: "1px solid white"}}> 
+            <div className="footer-top ">
                 <div className="container">
                     <div className="row p-4">
                         <div className="col-xl-4  col-lg-5  col-md-8  col-sm-7 col-12">

@@ -6,7 +6,7 @@ export default function Intro() {
   return (
     <>
          <main class="over-hiddenn">
-       <div className="intro-feature-area over-hidden position-relative section-bg ">
+       <div className="intro-feature-area over-hidden position-relative " style={{"background-color": "black"}}>
             <div className="container">
                 <div className="row single-intro-feature-wrapper justify-content-center pt-170 pb-140">
                     <div className="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
