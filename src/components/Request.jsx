@@ -34,7 +34,7 @@ export default function Request() {
                                         </div>
                                         <div className="contact-text d-inline-block">
                                             <h4 className="mb-2">{t("Location")}</h4>
-                                            <p className="text-color mb-0"> abc , London, xyz</p>
+                                            <p className="text-color mb-0"> </p>
                                         </div>
                                     </li>
                                     {/* <!-- /contact-location --> */}
@@ -48,8 +48,8 @@ export default function Request() {
                                         <div className="contact-text">
                                             <h4 className="mb-2"> {t("Phone")}</h4>
                                             <p className="mb-0">
-                                                <a className="text-color primary-hover d-block" href="#">+100 000
-                                                    0000</a>
+                                                <a className="text-color primary-hover d-block" href="#">
+                                                    </a>
                                             </p>
                                         </div>
                                     </li>
@@ -64,7 +64,7 @@ export default function Request() {
                                             <h4 className="mb-2"> {t("Email")}</h4>
                                             <p className="mb-0">
                                                 <a className="text-color primary-hover d-block"
-                                                    href="#">hello@abc.com</a>
+                                                    href="#"></a>
                                             </p>
                                         </div>
                                     </li>

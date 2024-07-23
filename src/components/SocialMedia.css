@@ -48,8 +48,9 @@
 
 
 .social-box::before{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSywW7zet1lSnmo79fEg0aHxHedjx0bo5mJ3Q&s");
-      color: white !important;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSywW7zet1lSnmo79fEg0aHxHedjx0bo5mJ3Q&s"); */
+      background-color: black;
+    color: white !important;
       width: 100% !important;
 }
 .social-box2::before{

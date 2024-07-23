@@ -85,7 +85,8 @@ p {
   color: #000000;
 }
 .cardbg{
-  background-color: #25262f;
+  /* background-color: #25262f; */
+  background-color: transparent;
   border: 1px solid #ffffff; 
   box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 1px #FFFFFF, 0 0 0px #ffffff !important; 
   transition: box-shadow 0.3s ease-in-out;
