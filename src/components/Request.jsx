@@ -22,7 +22,8 @@ export default function Request() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
+                        {/* <div className="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12"></div> */}
+                        {/* <div className="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
                             <div className="contact-wrapper mt-70">
                                 <ul className="contact-info-content">
                                     <li
@@ -34,11 +35,11 @@ export default function Request() {
                                         </div>
                                         <div className="contact-text d-inline-block">
                                             <h4 className="mb-2">{t("Location")}</h4>
-                                            <p className="text-color mb-0"> </p>
+                                            <p className="text-color mb-0"> abc , London, xyz</p>
                                         </div>
                                     </li>
                                     {/* <!-- /contact-location --> */}
-                                    <li
+                                    {/* <li
                                         className="contact-email s-contact mb-20 transition-3 d-lg-flex  align-items-center">
                                         <div className="contact-icon d-inline-block text-center mr-30 transition5">
                                             <span className="d-inline-block">
@@ -48,12 +49,12 @@ export default function Request() {
                                         <div className="contact-text">
                                             <h4 className="mb-2"> {t("Phone")}</h4>
                                             <p className="mb-0">
-                                                <a className="text-color primary-hover d-block" href="#">
-                                                    </a>
+                                                <a className="text-color primary-hover d-block" href="#">+100 000
+                                                    0000</a>
                                             </p>
                                         </div>
-                                    </li>
-                                    <li
+                                    </li> */}
+                                    {/* <li
                                         className="contact-phone s-contact mb-20 transition-3 d-lg-flex  align-items-center">
                                         <div className="contact-icon d-inline-block text-center mr-30 transition5">
                                             <span className="d-inline-block">
@@ -64,14 +65,14 @@ export default function Request() {
                                             <h4 className="mb-2"> {t("Email")}</h4>
                                             <p className="mb-0">
                                                 <a className="text-color primary-hover d-block"
-                                                    href="#"></a>
+                                                    href="#">hello@abc.com</a>
                                             </p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
+                        </div> */} 
+                        <div className="col-xl-12 col-lg-10 col-md-12  col-sm-12 col-12">
                             <div className="contact-wrapper">
                                 <div className="contact-form mt-45">
                                     <form action="https://ethemestudio.com/demo/thames/6_home_minimal/php/mail.php" method="POST" id="contact-form">
