@@ -32,7 +32,7 @@ export default function Resume() {
 
 {/* <!-- ====== about-area-start */}
 {/* ==================================================== --> */}
-<div id="about" className="about-area over-hidden aboutbgdark" style={{"background-color": "black"}}>
+<div id="about" className="about-area over-hidden " style={{"background-color": "black"}}>
     <div className="about-content-wrapper about-margin mt-170 mb-110 position-relative">
         <div className="container">
             <div className="row justify-content-center">
@@ -129,7 +129,7 @@ export default function Resume() {
 {/* <!-- about-area-end --> */}
 
   {/* <!-- Education Area start --> */}
-  <div className="education-area over-hidden aboutbgdark pt-100">
+  <div className="education-area over-hidden  pt-100">
     <div className="container">
         <div className="row position-relative">
             <div className="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
@@ -268,7 +268,7 @@ export default function Resume() {
 
    <!-- ====== award-area-start 
 ==================================================== --> */}
-<div className="award-area over-hidden position-relative z-index11 pt-160 pb-170 aboutbgdark">
+<div className="award-area over-hidden position-relative z-index11 pt-160 pb-170 ">
     <div className="container">
         <div className="row">
             <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
