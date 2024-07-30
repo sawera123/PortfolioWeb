@@ -1,7 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+    const [isHovered, setIsHovered] = useState(false);
+
     const { t } = useTranslation();
   return (
     <>
@@ -16,6 +18,19 @@ export default function Footer() {
                                     <img src="images/logo/image.gif"
                                     alt="THAMES"/>
                                 </div>
+                                <div 
+      className="foot-logo mb-30"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <Link to='/' className="header-logo">
+        <img 
+          src={isHovered ? "images/logo/hover.gif" : "images/logo/image.gif"} 
+         
+          alt="THAMES" 
+        />
+      </Link>
+    </div>
                                 <div className="copyright-text">
                                     <p className="mb-0"> {t("All rights reserved")}
                                         <a href=""
