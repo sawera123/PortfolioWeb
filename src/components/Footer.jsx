@@ -18,7 +18,7 @@ export default function Footer() {
                                 </div>
                                 <div className="copyright-text">
                                     <p className="mb-0"> {t("All rights reserved")}
-                                        <a href="https://themeforest.net/user/ethemestudio"
+                                        <a href=""
                                             className="c-theme theme-color f-600 transition5">  SamiAlbin </a>
                                         © 2024
                                     </p>
