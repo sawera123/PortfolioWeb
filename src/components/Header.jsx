@@ -38,7 +38,7 @@ export default function Header() {
                         <li><Link to="/request">{t('requests')}</Link></li>
                         <li><Link to="/journal">{t('journal')}</Link></li>
                         <li><Link to="/store">{t('store')}</Link></li>
-                        <li><Link to="/blog">{t('social_media')}</Link></li>
+                        <li><Link to="/social_media">{t('social_media')}</Link></li>
                       </ul>
                     </nav>
                   </div>
