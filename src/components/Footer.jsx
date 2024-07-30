@@ -30,18 +30,12 @@ export default function Footer() {
                             <div className="footer-widget pb-40">
                                 <h4 className="mb-28 mt-2"> {t("Follow Me")}</h4>
                                 <ul className="social social-bg text-center d-flex">
-                                    {/* <li className="mr-2 rotate-hover">
-                                        <a className="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"
-                                            href="#"><i className="fab fa-facebook-f"></i></a>
-                                    </li> */}
+                                 
                                     <li className="mr-2 rotate-hover">
                                         <a className="twitter-bg text-center pr-0 text-white d-block rotate transition-3"
                                             href="#"><i className="fab fa-twitter"></i></a>
                                     </li>
-                                    {/* <li className="mr-2 rotate-hover">
-                                        <a className="linkedin-bg text-center pr-0 text-white d-block rotate transition-3"
-                                            href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    </li> */}
+                                   
                                     <li className="mr-2 rotate-hover">
                                         <a className="instagram-bg text-center pr-0 text-white d-block rotate transition-3"
                                             href="#"><i className="fab fa-instagram"></i></a>
@@ -54,18 +48,12 @@ export default function Footer() {
                             <div className="footer-widget pb-40">
                                 <h4 className="mb-28 mt-2">{t("Follow Me")}</h4>
                                 <ul className="social social-bg text-center d-flex">
-                                    <li className="mr-2 rotate-hover">
-                                        <a className="facebook-bg text-center pr-0 text-white d-block transition-3 rotate"
-                                            href="#"><i className="fab fa-facebook-f"></i></a>
-                                    </li>
+                                   
                                     <li className="mr-2 rotate-hover">
                                         <a className="twitter-bg text-center pr-0 text-white d-block rotate transition-3"
                                             href="#"><i className="fab fa-twitter"></i></a>
                                     </li>
-                                    <li className="mr-2 rotate-hover">
-                                        <a className="linkedin-bg text-center pr-0 text-white d-block rotate transition-3"
-                                            href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    </li>
+                                   
                                     <li className="mr-2 rotate-hover">
                                         <a className="instagram-bg text-center pr-0 text-white d-block rotate transition-3"
                                             href="#"><i className="fab fa-instagram"></i></a>
