@@ -108,15 +108,15 @@ export default function Home() {
 
           <div className="slider-social-link position-absolute right-0 d-none d-md-block z-index11">
             <ul className="social pr-60">
-              <li className="mt-10 mb-10 rotate-hover">
+              {/* <li className="mt-10 mb-10 rotate-hover">
                 <a className="text-center d-inline-block rotate" href="#"><i className="fab fa-facebook-f"></i></a>
-              </li>
+              </li> */}
               <li className="mt-10 mb-10 rotate-hover">
                 <a className="text-center d-inline-block rotate" href="#"><i className="fab fa-twitter"></i></a>
               </li>
-              <li className="mt-10 mb-10 rotate-hover">
+              {/* <li className="mt-10 mb-10 rotate-hover">
                 <a className="text-center d-inline-block rotate" href="#"><i className="fab fa-linkedin-in"></i></a>
-              </li>
+              </li> */}
               <li className="mt-10 mb-10 rotate-hover">
                 <a className="text-center d-inline-block rotate" href="#"><i className="fab fa-youtube"></i></a>
               </li>
