@@ -78,7 +78,7 @@ export default function Header() {
             <li><Link to="/request">{t('requests')}</Link></li>
             <li><Link to="/journal">{t('journal')}</Link></li>
             <li><Link to="/store">{t('store')}</Link></li>
-            <li><Link to="/blog">{t('social_media')}</Link></li>
+            <li><Link to="/social_media">{t('social_media')}</Link></li>
           </ul>
         </nav>
         <h5 className="text-white text-center mt-35 pb-1 d-inline-block ml-3">{t('follow_me')}</h5>
