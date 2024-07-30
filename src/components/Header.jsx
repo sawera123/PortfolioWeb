@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 export default function Header() {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -14,6 +16,7 @@ export default function Header() {
     i18n.changeLanguage(lng);
   };
 
+  
   return (
     <>
     
@@ -23,11 +26,19 @@ export default function Header() {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5">
-                  <div className="logo mt-50 mb-50 transition5">
-                    <Link to='/' className="header-logo">
-                      <img src="images/logo/image.gif" style={{ width: '50%' }} alt="THAMES" />
-                    </Link>
-                  </div>
+                <div 
+      className="logo mt-50 mb-50 transition5"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <Link to='/' className="header-logo">
+        <img 
+          src={isHovered ? "images/logo/hover.gif" : "images/logo/image.gif"} 
+          style={{ width: '50%' }} 
+          alt="THAMES" 
+        />
+      </Link>
+    </div>
                 </div>
                 <div className="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-7 pl-0 d-flex justify-content-end align-items-center">
                   <div className="main-menu d-none d-lg-block">

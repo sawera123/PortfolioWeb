@@ -51,6 +51,10 @@
   --white-color: #000000;
 }
 
+
+
+
+
 /* password page css */
 .container-fluid {
   display: flex;
@@ -559,9 +563,6 @@ border: none;
   transition: .5s;
   background: rgba(68, 67, 67, 0.22);
  
-
- 
-  
 }
 .main-menu ul li:hover > a,
 .main-menu ul li.active a,
