@@ -28,7 +28,7 @@ export default function Resume() {
   return (
     <>
   
-       <main className="over-hiddenn">
+       <main className="over-hidden">
 
 {/* <!-- ====== about-area-start */}
 {/* ==================================================== --> */}
@@ -129,7 +129,7 @@ export default function Resume() {
 {/* <!-- about-area-end --> */}
 
   {/* <!-- Education Area start --> */}
-  <div className="education-area over-hidden  pt-100">
+  <div className="education-area  pt-100" style={{"background-color": "black"}}>
     <div className="container">
         <div className="row position-relative">
             <div className="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
@@ -268,7 +268,7 @@ export default function Resume() {
 
    <!-- ====== award-area-start 
 ==================================================== --> */}
-<div className="award-area over-hidden position-relative z-index11 pt-160 pb-170 ">
+<div className="award-area over-hidden position-relative z-index11 pt-160 pb-170 " style={{"background-color": "black"}}>
     <div className="container">
         <div className="row">
             <div className="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
@@ -385,7 +385,7 @@ export default function Resume() {
     </div>
 </div>
 
-<div className="fun-fact-area fun-fact-bg position-relative over-hidden pt-150 pb-120" data-aos="fade-up"
+<div className="fun-fact-area fun-fact-bg position-relative over-hidden pt-150 pb-120" style={{"background-color": "black"}}  data-aos="fade-up"
     data-aos-duration="1800">
     <div className="container">
         <div className="row">
