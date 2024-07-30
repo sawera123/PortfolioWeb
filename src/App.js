@@ -22,7 +22,7 @@ function App() {
                 <Route path="/request" element={<RequestPage />} />
                 <Route path="/journal" element={<JournalPage />} />
                 <Route path="/store" element={<StorePage />} />
-                <Route path="/blog" element={<SocialMediaPage />} />
+                <Route path="/social-media" element={<SocialMediaPage />} />
               
              </Routes>
           </>
